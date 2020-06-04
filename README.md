@@ -13,3 +13,4 @@ Make sure billing is enabled in your google cloud account.
 To install Google Vision Client Libraries, follow the step in: https://cloud.google.com/vision/docs/libraries
 Or for python you can just run this command: pip install --upgrade google-cloud-vision
 
+To start the program simple run the UserInterface.py file in any IDE.
