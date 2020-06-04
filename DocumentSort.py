@@ -148,7 +148,6 @@ def fileSplitter(directory):
     source_path = directory
     basename = os.path.basename(source_path)
     destin_path = os.path.dirname(source_path) + '/' + 'Sorted'
-    #'V:\\Nerses\\Projects\\SORS-master' + basename + '(Sorted)'
 
     createFolder(os.path.dirname(source_path),'Sorted')
 

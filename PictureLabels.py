@@ -3,7 +3,7 @@ from google.cloud import vision
 import os
 
 #JSON file to grant access for google vision api
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="V:\\Nerses\\My First Project-6a20a20acb02.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="path\\to\\the\\JSON\\file"
 
 #Image Labeler based on the content of the image
 def detect_labels(path):
