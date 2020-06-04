@@ -1,6 +1,7 @@
 import os
 import shutil
 
+
 class PictureSort:
     '''These are "global" array that contain keywords tha will categorize
     the the picture into the correct folder'''
