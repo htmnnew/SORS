@@ -2,7 +2,7 @@ import io
 from google.cloud import vision
 import os
 
-#JSON file to grant access for google vision api
+#JSON file to grant access for google vision api, you can download this file from google API
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="path\\to\\the\\JSON\\file"
 
 #Image Labeler based on the content of the image
