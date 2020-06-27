@@ -72,6 +72,7 @@ Window.configure(background="#D0D0D0")
 MyFrame = MyInterface2(Window)
 Window.resizable(0, 0)
 
+#starts the main gui windown on the screen
 # Displays
 canvasLogo = Canvas(Window, width=105, height=75)
 canvasLogo.pack()
