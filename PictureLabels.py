@@ -3,7 +3,7 @@ from google.cloud import vision
 import os
 
 #JSON file to grant access for google vision api, you can download this file from google API
-# make sure to enable billing
+# make sure to enable billing otherwise the program will not compile
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="path\\to\\the\\JSON\\file"
 
 #Image Labeler based on the content of the image
