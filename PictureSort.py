@@ -4,7 +4,9 @@ import shutil
 
 class PictureSort:
     '''These are "global" array that contain keywords tha will categorize
-    the the picture into the correct folder. the accuracy is provided by google vision'''
+    the the picture into the correct folder. the accuracy is provided by google vision
+    if you wish you can add more categories ans labels however make sure to change the rest
+    of the code to make sure correct folders get created for each piture'''
     person = ['Man', 'Women', 'Child', 'Teenager', 'Boy',
               'Girl', 'Person', 'Human', 'Dad', 'Mom',
               'Father', 'Mother', 'Grandmother', 'Face','Facial Expression',
